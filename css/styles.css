@@ -40,7 +40,7 @@ body {
 #nav-list a {  /* menu item titles */
   color: #951C49;
   text-align: center;
-  background: #fffff0;
+  background: #ffffe0;
 }
 #nav-list a:hover {
   color: #ffffff;
@@ -60,7 +60,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:hover {
-  background-color: #fffff0;
+  background-color: #ffffe0;
 }
 
 /*END HEADER */
@@ -81,7 +81,7 @@ h3 {
 }
 
 .itembox {
-  background-color: #fffff0;
+  background-color: #ffffe0;
   position: relative;
   border: 0px;
   margin-bottom: 24px;
