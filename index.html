@@ -12,13 +12,88 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <title>Bootstrap Starter Page</title>
+    <title>Assignment Solution for Module 3</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-  </head>
-<body>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
 
-  <h1>Hello Coursera!</h1>
+ </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a id="top" href="index.html"><h1>Food, LLC</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> <!-- navbar-header -->
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#Chicken" class="visible-xs">
+                <span>Chicken</span></a>
+            </li>
+            <li>
+              <a href="#Beef" class="visible-xs">
+                <span>Beef</span></a>
+            </li>
+            <li>
+              <a href="#Shrimp" class="visible-xs">
+                <span>Shrimp</span></a>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+
+      </div> <!-- container -->
+    </nav> <!-- header-nav -->
+  </header>
+
+  
+  <div id="main-content" class="container">
+
+
+  <h2 class="text-center">Our Menu</h2>
+  
+  <!-- <section id="dishes"> -->
+  <div id="home-tiles" class="row">
+  
+    <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="itembox">
+    <h3 id="Chicken" class="text-center">Chicken</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href="#top"><p>Back to top</p></a>
+    </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6 col-xs-12">
+    <div class="itembox">
+    <h3 id="Beef" class="text-center">Beef</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href="#top"><p>Back to top</p></a>
+    </div>
+    </div>
+
+    <div class="col-md-4 col-sm-12 col-xs-12">
+    <div class="itembox">
+    <h3 id="Shrimp" class="text-center">Shrimp</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <a href="#top"><p>Back to top</p></a>
+    </div>
+    </div>
+
+  </div> <!-- row -->
+  <!-- </section> --> <!-- dishes section -->
+  </div> <!-- container -->
+
 
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
